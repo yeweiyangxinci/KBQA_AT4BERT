@@ -19,7 +19,34 @@
 
 ### 代码目录结构
    因为git上传大小限制，其中某些模型目录我忽略了<br/>
-   ···
-   bert文件夹是官方下载的
-   data文件夹存放原始数据和处理好的数据
    ```
+   bert文件夹是官方下载的
+   
+   data文件夹存放原始数据和处理好的数据
+      DB_Data: clean_triple.csv 录入数据库的三元组信息，是由triple_clean.py文件生成
+      NER_Data: 里面数据是由construct_dataset.py生成
+      Sim_Data: 里面数据是由construct_dataset_attribute.py生成
+      NLPCC2016KBQA：是原始数据
+      npy：保存的中间文件数据
+      load_dbdata.py: 将数据导入mysql
+      其他的都是文件输入数据
+   
+   ner_ckpt: 存放实体识别的模型，我已经训练好了
+   
+   output: 存在相似度模型
+   
+   基于AT的实体识别：
+      Nlpcc_model.py 
+      base_model.py
+      preprocess_nlpcc2016.py
+      train_nlpcc2016.py
+      test_nlpcc2016.py
+      
+   基于句子相似度的计算：
+      args.py
+      run_similarity.py
+   
+   最终KBQA模块
+      kbqa_test.py
+   ```
+   
