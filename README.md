@@ -64,11 +64,13 @@
   ### 运行结果
    ||QA fully based on Bert|QA based on Bert,AT|
    |:---|:---|:---|
+   |total|9870|9870|
    |recall|9303|8639|
    |correct|8029|7566|
    |ambiguity|613|532|
-   |accuracy|86.305|87.579%|
-   
+   |accuracy|86.305%|87.579%|
+   最后我的实验结果:<br/>
+   ![加载失败](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa.png)<br/>
    ### 结果分析
    两个实验在数据集大致相等的情况下，我的实验比Bert实验准确率更高，但是总体召回率较低。我分析原因有两个方面，一方面使用对抗网络的中的LSTM比bert当中    transFormer特征提取能力要差一点，这一点，可以通过实验验证，但是使用对抗网络的实体识别准确率更高。所以后续问答实验中的准确率较高，这一点可以通过      ambiguity (属性匹配正确但是答案不正确)值较低得到验证。另外一个方面就是我训练实体识别模型还不够完善，loss是0.07停止训练，没有达到最低值。
    
