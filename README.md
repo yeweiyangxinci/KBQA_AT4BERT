@@ -58,15 +58,14 @@
    如果想要运行自己的数据和模型，按照下面步骤：
       step1: 构建自己的实体识别模型，我的是Nlpcc2016_model.py, 运行prepocess_nlpcc2016.py
             再运行train_nlpcc2016.py训练模型，最后运行test_nlpcc2016.py生成测试集识别结果/images/AT4.png
-
-step2: 运行run_similarity训练bert模型
+      step2: 运行run_similarity训练bert模型
       step3: 最后运行kbqa_test.py生成最后结果
    ```
   ### 运行结果
-   首先是实体识别模块的运行结果：
-   <img src="https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/AT4.png" width="150" height="150" alt="图片加载失败时，显示这段字"/>
-   其次是参考的全部使用bert模型的结果：
-   ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa_bert.png)
-   最后我的实验结果:
-   ![加载失败](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa.png)
+   首先是实体识别模块的运行结果：<br/>
+   ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/AT4.png)<br/>
+   其次是参考的全部使用bert模型的结果：<br/>
+   ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa_bert.png)<br/>
+   最后我的实验结果:<br/>
+   ![加载失败](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa.png)<br/>
   
