@@ -62,8 +62,11 @@
       step3: 最后运行kbqa_test.py生成最后结果
    ```
   ### 运行结果
+   首先是实体识别模块的运行结果：<br/>
+   ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/AT4.png)<br/>
    最后我的实验结果:<br/>
    ![加载失败](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa.png)<br/>
+
    ||QA fully based on Bert|QA based on Bert,AT|
    |:---|:---|:---|
    |total|9870|9870|
