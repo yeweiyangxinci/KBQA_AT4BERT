@@ -64,7 +64,7 @@ step2: 运行run_similarity训练bert模型
    ```
   ### 运行结果
    首先是实体识别模块的运行结果：
-   ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/AT4.png)
+   <img src="https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/AT4.png" width="150" height="150" alt="图片加载失败时，显示这段字"/>
    其次是参考的全部使用bert模型的结果：
    ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa_bert.png)
    最后我的实验结果:
