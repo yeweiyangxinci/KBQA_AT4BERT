@@ -69,7 +69,7 @@
 
    ||QA fully based on Bert|QA based on Bert,AT|
    |:---|:---|:---|
-   |total|9870|9870|
+   |total|9870|9000|
    |recall|9303|8639|
    |correct|8029|7566|
    |ambiguity|613|532|
