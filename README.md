@@ -53,7 +53,7 @@
    ```
  ### 使用说明
    ```
-   我的模型和数据都放在里面了，修改了mysql连接信息load_dbdata.py导入数据可以直接运行，运行kbqa_test.py即可
+   我的模型和数据都放在里面了，修改了mysql连接信息load_dbdata.py导入数据可以直接运行，然后再运行run_similarity.py训练模型，最后运行kbqa_test.py     即可。
    
    如果想要运行自己的数据和模型，按照下面步骤：
       step1: 构建自己的实体识别模型，我的是Nlpcc2016_model.py, 运行prepocess_nlpcc2016.py
