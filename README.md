@@ -67,7 +67,8 @@
    ![加载错误](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/AT4.png)<br/>
    最后我的实验结果:<br/>
    ![加载失败](https://github.com/yeweiyangxinci/KBQA_AT4BERT/blob/master/images/kbqa.png)<br/>
-
+   说明：两个实验虽然都是来自于同一数据集，但是在设计我的实验时进行了去噪，所有实验数据只有9000条，故两个实验不能形成严谨的对照，只能做参考，
+   后续会做改进。
    ||QA fully based on Bert|QA based on Bert,AT|
    |:---|:---|:---|
    |total|9870|9000|
